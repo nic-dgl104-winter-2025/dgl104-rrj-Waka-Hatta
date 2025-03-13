@@ -2,6 +2,9 @@
 # Rsearch and Reflection Journal
 Research and Reflection Journal for DGL 104 course
 
+
+# **Course Notes - Week 8 to Week 12**
+
 ---
 ## Week 8 (March 4)
 
@@ -41,8 +44,6 @@ Design patterns are generally classified into three main categories:
 Design patterns improve software design by enhancing efficiency and maintainability. However, they are not universal solutions for all problems. Choosing the appropriate pattern is crucial to avoid unnecessary complexity.  
 It is important to **"avoid excessive inheritance"** and **"utilize object composition effectively"** for better code organization.
 
-### **Weekly Assignment** *************************************************************
-
 
 ### **Community code project Progress** *********************************************
   - **Create and review a Database ER diagram**  
@@ -53,23 +54,54 @@ It is important to **"avoid excessive inheritance"** and **"utilize object compo
 ---
 ## Week 9 (March 11)
 ### **Class Content** *******************************************************************
-### **Weekly Assignment** *************************************************************
+#### **MV* PATTERNS**
+
+1. Creational DP -> Singleton, Factory, Builder, Prototype
+2. Structural DP -> Adapter, Decorator, Facade, Composite
+3. Behavioral DP -> Observer, Strategy, Command, State
+
+[1] MVVM (Model-View-ViewModel)
+   - MVVM is a UI-based architectural pattern similar to MVC but focuses on data binding.
+   - he Model contains business logic and data.
+   - The View is responsible for UI representation.
+   - The ViewModel acts as a bridge between the Model and View without directly referencing the View.
+   - Data Binding is a key feature, reducing boilerplate code and improving efficiency.
+   - MVVM is particularly useful when real-time data updates are required.
+   - It is widely used in modern Android development, Swift UI, and web frameworks like Vue, Angular, and React.
+
+[2] MVC (Model-View-Controller)
+   - MVC is another UI architectural pattern.
+   - The Model handles data, storage, and business logic.
+   - The View presents data but does not store or process it.
+   - The Controller manages interactions between Model and View.
+   - MVC is common in web frameworks like Ruby on Rails, Django, Angular, and Vue.
+   - While historically used in iOS and Android, it has been largely replaced by MVVM for modern mobile development.
+
+### References
+   - Design Patterns https://en.wikipedia.org/wiki/Design_Patterns
+   - MVC vs MVVM https://www.issoh.co.jp/column/details/2051/
+
 ### **Community code project Progress** *********************************************
+  - **Develop using the MVC pattern**
+  - **DB construction**
+  - **UI determination**
+    - User login 
+    - Task management 
+    - User management 
+
+
 
 ---
 ## Week 10 (March 18)
 ### **Class Content** *******************************************************************
-### **Weekly Assignment** *************************************************************
 ### **Community code project Progress** *********************************************
 
 ---
 ## Week 11 (March 25)
 ### **Class Content** *******************************************************************
-### **Weekly Assignment** *************************************************************
 ### **Community code project Progress** *********************************************
 
 ---
 ## Week 12 (April 1)
 ### **Class Content** *******************************************************************
-### **Weekly Assignment** *************************************************************
 ### **Community code project Progress** *********************************************
