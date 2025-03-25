@@ -23,6 +23,15 @@
     - User management   - development
   
 ## Week 11 (March 18)
+  - **UI development**
+    - User management page
+  - **Refactoring**
+    ***User management page***
+    - Remove unnecessary code
+    - Consolidate duplicated code
+         (database_manager.py -> data_model.py)
+  
+
 
 
 
